@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../img/pexels-alex-conchillos-3745234.jpg);
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 1rem;
+    background-color: #fff;
+
+}
+
+.container h1 {
+    padding: 2rem;
+    font-size: 26px;
+}
+
+.container #luz {
+    margin-bottom: 1rem;
+}
+
+.commands {
+    flex-direction: row;
+}
+
+.commands h2 {
+    margin: 0.5rem;
+
+}
+
+.commands ul li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.border {
+    box-shadow: 0.8rem 0.8rem 0.15rem #484848f1;
+    border: 0.2rem solid #6b6b6b;
+    border-radius: 1rem;
+}
